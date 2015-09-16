@@ -11,6 +11,7 @@ Bugs are:
 * Issues raised internally or externally by application users.
 * Internally (from the ARM mbed team) created issues from the Continuous Integration pipeline and build servers.
 * Issues detected using automation tools such as compilers, sanitizers, static code and analysis tools.
+
 ## Workflow
 ### Forking and cloning this repository
 First [fork](https://help.github.com/articles/fork-a-repo/) this repository in GiutHub, then clone it locally with:
@@ -28,6 +29,7 @@ Now you can create separate branches in the forked repository and prepare pull r
 7. All code review comments handled. 
 8. Pull request accepted by gate-keeper.
 9. Pull request merged successfully.
+
 ### Code review
 The code review process is designed to catch both style and domain specific issues. It is also designed to follow and respect definition of done. Please make sure your code follows the source code style you are modifying. Each pull request must be reviewed by the gate-keeper before we can merge it to the master branch.
 ## Issues and bug reporting
@@ -42,6 +44,7 @@ You can either file a bug, help fix a bug or propose a new feature (or enhanceme
   * Copy/paste useful console dumps and configuration files' content. Please use [fenced code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) to encapsulate code snippets.
 * New features or bug fix: Create a pull request with your changes. 
 * General feedback: Give your feedback by posting your comments on existing pull requests and issues.
+
 ## Testing and code coverage
 The application should be unit tested (at least a minimal set of unit tests should be implemented in the ``/test`` directory). We should be able to measure the unit test code coverage. 
 Run unit test suite to make sure your changes are not breaking current implementation:
