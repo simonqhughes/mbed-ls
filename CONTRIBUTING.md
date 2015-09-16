@@ -19,7 +19,8 @@ First [fork](https://help.github.com/articles/fork-a-repo/) this repository in G
 $ git clone <repo-link>
 ```
 Now you can create separate branches in the forked repository and prepare pull requests with changes.
-### Issues solving - simple workflow
+### Issues solving
+Simple workflow issue solving process may contain below steps:
 1. Issue filed (by any user).
 2. Proper label assigned by gate-keeper.
 3. Bug-fixer forked and cloned.
