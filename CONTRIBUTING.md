@@ -1,3 +1,19 @@
+  * [Contributing](#contributing)
+    * [Enhancements vs bugs](#enhancements-vs-bugs)
+    * [Workflow](#workflow)
+      * [Forking and cloning this repository](#forking-and-cloning-this-repository)
+      * [Issues solving](#issues-solving)
+      * [Code review](#code-review)
+    * [Issues and bug reporting](#issues-and-bug-reporting)
+  * [How to contribute](#how-to-contribute)
+    * [Testing and code coverage](#testing-and-code-coverage)
+    * [Code coverage](#code-coverage)
+  * [Keep your GitHub fork updated](#keep-your-github-fork-updated)
+      * [Tracking changes](#tracking-changes)
+      * [Verify with:](#verify-with)
+      * [Updating](#updating)
+  * [Final notes](#final-notes)
+
 # Contributing
 We really appreciate your contributions! We are an open source project and we need your help. We want to keep it as easy as possible to contribute changes that get things working in your environment. There are a few guidelines that we need contributors to follow so that we can have a chance of keeping on top of things.
 ## Enhancements vs bugs
