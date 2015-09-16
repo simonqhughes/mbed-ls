@@ -4,7 +4,7 @@ We really appreciate your contributions! We are an open source project and we ne
 Enhancements are:
 * New features implementation.
 * Code refactoring.
-* Coding rules or coding styles improvements.
+* Coding rules or coding style improvements.
 * Code comments improvement.
 * Documentation work.
 Bugs are:
@@ -14,7 +14,7 @@ Bugs are:
 
 ## Workflow
 ### Forking and cloning this repository
-First [fork](https://help.github.com/articles/fork-a-repo/) this repository in GiutHub, then clone it locally with:
+First [fork](https://help.github.com/articles/fork-a-repo/) this repository in GitHub, then clone it locally with:
 ```
 $ git clone <repo-link>
 ```
@@ -31,10 +31,9 @@ Now you can create separate branches in the forked repository and prepare pull r
 9. Pull request merged successfully.
 
 ### Code review
-The code review process is designed to catch both style and domain specific issues. It is also designed to follow and respect definition of done. Please make sure your code follows the source code style you are modifying. Each pull request must be reviewed by the gate-keeper before we can merge it to the master branch.
+The code review process is designed to catch both style and domain specific issues. It is also designed to follow and respect the _definition of done_. Please make sure your code follows the style of the source code you are modifying. Each pull request must be reviewed by the gate-keeper before we can merge it to the master branch.
 ## Issues and bug reporting
-Please report all bugs using the Issues tab on the GitHub webpage. It will help us to collaborate on issues more promptly. One of our gate-keepers (developers responsible for quality and repository) will review the issue and assign a label to it
-such as bug, enhancement, help wanted or wontfix.
+Please report all bugs using the Issues tab on the GitHub webpage. It will help us to collaborate on issues more promptly. One of our gate-keepers (developers responsible for quality and the repository) will review the issue and assign a label such as _bug_, _enhancement_, _help wanted_ or _wontfix_.
 # How to contribute
 You can either file a bug, help fix a bug or propose a new feature (or enhancement) and implement it yourself. If you want to contribute please:
 * Bug reports: File a bug report in the Issues tab of this repo to let us know there are problems with our code.
@@ -47,7 +46,7 @@ You can either file a bug, help fix a bug or propose a new feature (or enhanceme
 
 ## Testing and code coverage
 The application should be unit tested (at least a minimal set of unit tests should be implemented in the ``/test`` directory). We should be able to measure the unit test code coverage. 
-Run unit test suite to make sure your changes are not breaking current implementation:
+Run a unit test suite to make sure your changes are not breaking current implementation:
 ```
 $ cd <package>
 $ python setup.py test
